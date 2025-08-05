@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Dubai';
+  src: url('/fonts/Dubai-Regular.ttf') format('truetype');
+  /* font-weight: 400;
+  font-style: normal; */
+}
+
+@font-face {
+  font-family: 'Circular Std';
+  src: url('/fonts/circular-std.ttf') format('truetype');
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+:root {
+  /* Primary Colors */
+  --color-primary-blue: #0057B8;
+  --color-primary-white: #FFFFFF;
+  --color-primary-orange: #FF5E14;
+
+  /* Backgrounds */
+  --color-bg-blue: #CEE5FF;
+  --color-bg-light: #F3F6F9;
+  --color-bg-orange: #FF5E1424; /* Note: 24 = 14% opacity */
+
+  /* Text Colors */
+  --color-text-primary: #212529;
+  --color-text-secondary: #818181;
+
+  /* Hover */
+  --color-bg-orange: #FF5E1424;
+}
+
+body {
+  background-color: var(--color-bg-light);
+}
+/* Target all sidebar MenuItem buttons */
+.MuiListItemButton-root {
+  width: 100% !important;
+  border-radius: 0 !important;
+  transition: background-color 0.2s ease;
+  color: var(--color-primary-white) !important;
+  padding-left: 1.6rem !important;
+  padding-block: 1rem !important;
+}
+
+/* On hover */
+.MuiListItemButton-root:hover {
+  background-color: #FF5E14 !important;
+  border-radius: 0 !important;
+  color: var(--color-primary-white) !important;
+  
+}
+
+/* On active (selected) */
+.MuiListItemButton-root.Mui-selected {
+  background-color: var(--color-primary-orange) !important;
+  border-radius: 0 !important;
+  color: var(--color-primary-white) !important;
+    padding-block: 1rem !important;
+
+}
+.css-utolp8 {
+    padding-left: unset !important;
+    padding-right: unset !important;
+    padding-bottom: 8px;
+}
+.MuiBox-root .css-8p0lqk{
+  height: 100%;
+}
+.MuiBox-root .css-8atqhb{
+  height: 100%;
+}
