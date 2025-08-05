@@ -11,7 +11,7 @@ const ShippingDetails = () => {
       value: (
         <Box display="flex" alignItems="center" gap={1}>
           <Image
-            src="/images/logos/carrierlogo.png"
+            src="/images/logos/CarrierLogo.png"
             alt="Carrier Logo"
             width={100}
             height={24}
